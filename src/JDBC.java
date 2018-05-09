@@ -8,6 +8,8 @@ public class JDBC
     public static void main(String[] args)
     {
         //1.加载数据库驱动到内存
+        
+        
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
